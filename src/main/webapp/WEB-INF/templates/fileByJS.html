@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>fileByJS</title>
+</head>
+<body>
+  <div class="box">
+    <input type="file" ref="files" multiple>
+    <input type="text" v-model="text">
+    <button @click="upload">upload</button>
+  </div>
+  <script src="webjars/axios/0.24.0/dist/axios.js"></script>
+  <script src="webjars/vue/3.2.20/dist/vue.global.js"></script>
+  <script>
+    Vue.createApp({
+      data(){
+        return{
+          text:'测试'
+        }
+      },
+      methods:{
+        upload(){
+          let file = new FormData();
+          let config = {
+            headers:{
+              'Content-Type':'multipart/form-data'
+            }
+          }
+          file.append("file",this.$refs.files.files[0])
+          axios
+            .post("/springMVC/fileup",
+                    file,
+                    {
+                      'Content-Type':'multipart/form-data'
+                    }
+            )
+            .then(res=>{
+              console.log(res)
+            })
+            .catch(err=>{
+              console.log(err)
+            })
+
+        }
+      }
+    }).mount('.box')
+  </script>
+</body>
+</html>

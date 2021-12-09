@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="web" name="Web">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/src/main/webapp" relative="/" />
+        </webroots>
+        <sourceRoots>
+          <root url="file://$MODULE_DIR$/src/main/java" />
+          <root url="file://$MODULE_DIR$/src/main/resources" />
+        </sourceRoots>
+      </configuration>
+    </facet>
+    <facet type="Spring" name="Spring">
+      <configuration />
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_12">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-webmvc:5.3.1" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-aop:5.3.1" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-beans:5.3.1" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-context:5.3.1" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-core:5.3.1" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-jcl:5.3.1" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-expression:5.3.1" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-web:5.3.1" level="project" />
+    <orderEntry type="library" name="Maven: ch.qos.logback:logback-classic:1.2.3" level="project" />
+    <orderEntry type="library" name="Maven: ch.qos.logback:logback-core:1.2.3" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.25" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: javax.servlet:javax.servlet-api:3.1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.thymeleaf:thymeleaf-spring5:3.0.12.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.thymeleaf:thymeleaf:3.0.12.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.attoparser:attoparser:2.0.5.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.unbescape:unbescape:1.1.6.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.npm:axios:0.24.0" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.npm:follow-redirects:1.14.5" level="project" />
+    <orderEntry type="library" name="Maven: org.projectlombok:lombok:1.18.22" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.9.0" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.0" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.9.0" level="project" />
+    <orderEntry type="library" name="Maven: commons-fileupload:commons-fileupload:1.4" level="project" />
+    <orderEntry type="library" name="Maven: commons-io:commons-io:2.2" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.npm:vue:3.2.20" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.npm:vue__runtime-dom:3.2.20" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.npm:vue__runtime-core:3.2.20" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.npm:vue__reactivity:3.2.20" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.npm:csstype:3.0.0-beta.4" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.npm:vue__shared:3.2.20" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.npm:vue__compiler-sfc:3.2.20" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.npm:vue__compiler-ssr:3.2.20" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.npm:vue__ref-transform:3.2.20" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.npm:estree-walker:2.0.2" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.npm:babel__parser:7.16.2" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.npm:magic-string:0.25.7" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.npm:sourcemap-codec:1.4.8" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.npm:source-map:0.6.1" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.npm:vue__compiler-core:3.2.20" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.npm:postcss:8.3.11" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.npm:nanoid:3.1.30" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.npm:picocolors:1.0.0" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.npm:source-map-js:0.6.2" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.npm:vue__compiler-dom:3.2.20" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.npm:vue__server-renderer:3.2.20" level="project" />
+  </component>
+</module>
